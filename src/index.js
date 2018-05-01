@@ -6,6 +6,7 @@
 'use strict';
 
  import React, { Component } from 'react'
+ import { ViewPropTypes } from 'react-native'
  import PropTypes from 'prop-types'
  import {
    View,
@@ -19,7 +20,7 @@
      animateEnd: PropTypes.func,
      curvature: PropTypes.number,
      duration: PropTypes.number,
-     style: View.propTypes.style
+     style: ViewPropTypes.style
    }
 
    static defaultProps = {
